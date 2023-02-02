@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping
     public ResponseEntity<?> getResponse(String param) {
-        return ResponseEntity.ok(param);
+        return ResponseEntity.ok(param + "!!!!!!");
     }
 }
