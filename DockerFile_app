@@ -1,4 +1,4 @@
 FROM adoptopenjdk/openjdk11
 VOLUME /tmp
-COPY /backoffice-0.0.1-SNAPSHOT.jar /backoffice-0.0.1-SNAPSHOT.jar
-CMD ["java", "-jar", "/backoffice-0.0.1-SNAPSHOT.jar"]
+COPY /demo-ci-cd-0.0.1-SNAPSHOT.jar /demo-ci-cd-0.0.1-SNAPSHOT.jar
+CMD ["java", "-jar", "/demo-ci-cd-0.0.1-SNAPSHOT.jar"]

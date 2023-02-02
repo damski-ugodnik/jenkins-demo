@@ -4,8 +4,8 @@ services:
     build:
       context: .
       dockerfile: DockerFile_app
-    container_name: backoffice
+    container_name: demo-ci-cd
     restart: always
-    image: backoffice_image
+    image: demo-ci-cd_image
     ports:
       - 8080:8080
